@@ -73,7 +73,7 @@ const sendWhatsAppNotification = async (feed) => {
 const fetchDataAndNotify = async () => {
   try {
     const response = await fetch(
-      "https://api.thingspeak.com/channels/2725512/feeds.json?api_key=HEWPZR8G2P58R4QR&results=1"
+      "https://api.thingspeak.com/channels/2725512/feeds.json?api_key=YOUR_API&results=1"
     );
     const jsonData = await response.json();
     const feeds = jsonData.feeds.map((feed) => {
