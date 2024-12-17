@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-const apiKey = "3c3Rn39UQuMFTTn8cAKu";
+const apiKey = "YOUR_API_KEY";
 
 const calculateStatus = (ph, turbidity, tds) => {
   const phValue = parseFloat(ph);
